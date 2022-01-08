@@ -10,7 +10,7 @@ public class recursion {
     private static void fun(int n) {
         if(n<=0)   //Base condition or termination condition
         return;
-        System.out.println("Hello "+n);
+        System.out.println("Hello ");
         fun(n-1);
     }
 }
